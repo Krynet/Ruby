@@ -1,0 +1,10 @@
+<% @post.each do |x| %>
+  <div class="white">
+    <h1><%= x.title%></h1>
+    <h3><%= x.description %></h3>
+  </div>
+  <br>
+  <%= button_to "Commenter", action: "new" %>
+<form method="post" action="" class="button_to">
+  </form>
+<% end %>
